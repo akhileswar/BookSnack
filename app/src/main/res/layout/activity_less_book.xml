@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eeeee"
+    tools:context="com.akhil.breuna.wid.Less_book">
+
+
+    <TextView
+        android:id="@+id/textView11"
+
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="#59000000"
+
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Snacks-Canceled"
+        android:textColor="#D9ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_below="@+id/textView12"
+        android:background="#59000000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Less Bookings"
+        android:textColor="#D9ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/textView11"
+        android:background="#59000000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Due To"
+        android:textColor="#D9ffffff"
+        android:textSize="24sp" />
+</RelativeLayout>

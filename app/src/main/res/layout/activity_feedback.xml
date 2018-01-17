@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akhil.breuna.wid.Feedback">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:background="@drawable/feedbacks"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="Enter Feedback or Complaints"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+    android:lines="8"
+    android:minLines="6"
+    android:gravity="top|left"
+    android:scrollbars="vertical"
+        android:paddingBottom="90dp"
+        android:paddingLeft="15dp" />
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginTop="53dp"
+
+        android:layout_weight="1"
+        android:text="Your Feedback will be considered"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#E6FF4949"
+        android:layout_below="@+id/editText"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="sent" />
+</RelativeLayout>

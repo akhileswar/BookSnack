@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    tools:context="com.akhil.breuna.wid.login"
+    android:background="@drawable/sample8"
+    android:theme="@style/NoActionBar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="Forgot Password?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="normal|italic"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@+id/button6"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:text="Sign-Up "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:padding="10dp"
+        android:textSize="19sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:background="#00000000"
+        android:textStyle="italic"
+        android:paddingLeft="70dp"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginBottom="143dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/editText6"
+        android:hint="password"
+        android:width="250sp"
+        android:background="@drawable/but"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="@android:color/background_dark"
+        android:paddingLeft="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/iiitk"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="33dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:hint="Email"
+        android:width="250sp"
+        android:background="@drawable/but"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/editText6"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="@android:color/background_dark"
+        android:paddingLeft="30dp" />
+
+    <Button
+        android:text="LOG-IN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@drawable/log"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_alignEnd="@+id/editText6"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:text="IIIT-K"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:id="@+id/textView5"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignStart="@+id/textView" />
+
+
+</RelativeLayout>

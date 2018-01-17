@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    tools:context="com.akhil.breuna.wid.Signup_page"
+    android:background="@drawable/sample8"
+    android:theme="@style/NoActionBar">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iiitk"
+        android:layout_marginTop="31dp"
+        android:id="@+id/imageView"
+        android:layout_marginStart="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:hint="Password"
+        android:background="@drawable/but"
+        android:paddingLeft="20dp"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/editText3"
+        android:hint="Confirm Password"
+        android:background="@drawable/but"
+        android:paddingLeft="20dp"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:text="signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:background="@drawable/log"
+        android:textStyle="normal|italic"
+        android:textSize="18sp"
+
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/editText1"
+        android:background="@drawable/but"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:textCursorDrawable="@drawable/cursor"
+
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="21dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/editText2"
+        android:hint="Username"
+        android:background="@drawable/but"
+        android:paddingLeft="20dp"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="66dp"
+        android:layout_alignTop="@+id/editText1"
+        android:layout_alignStart="@+id/editText1" />
+
+    <TextView
+        android:text="IIIT-K"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:id="@+id/textView5"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:layout_marginStart="13dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:text="ABOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/editText1"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView6"
+        android:textSize="17sp" />
+
+</RelativeLayout>

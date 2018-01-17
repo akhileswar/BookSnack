@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akhil.breuna.wid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Signup_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Intermediate">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:color="#000000"
+            android:name=".Notbooked"
+            android:label="Home" />
+        <activity
+            android:name=".booked"
+            android:label="Home" />
+        <activity
+            android:name=".BookSnack"
+            android:label="Place-Order" />
+        <activity
+            android:name=".Edit_Snack"
+            android:label="Edit-Order" />
+        <activity android:name=".navigation_headerr" />
+        <activity
+            android:name=".About"
+            android:label="About" />
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback" />
+        <activity
+            android:name=".previous_bookings"
+            android:label="Previous-Bookings" />
+        <activity android:name=".Mainnavigation" />
+        <activity
+            android:name=".Time_out"
+            android:label="Home" />
+        <activity android:name=".No_tmmro_snack" />
+        <activity android:name=".Less_book"></activity>
+    </application>
+
+</manifest>
